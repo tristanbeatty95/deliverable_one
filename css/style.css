@@ -1,0 +1,115 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #f2f2f2;
+    height: 30vh;
+    width: 100%;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.learnto {
+    color: #20a8b4;
+}
+
+.code {
+    color: #ff5c0f;
+}
+
+.navbar {
+    justify-content: space-between;
+    flex-direction: column;
+    float: left;
+    display: flex;
+    width: 100%;
+    margin-left: 0px
+}
+
+li {
+    display: flex;
+    display: inline-block;
+    margin: 8px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff5c0f
+}
+
+.bottom {
+    position: absolute;
+    top: 50%;
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.logo {
+    visibility: hidden;
+    width: 450px;
+    float: right;
+    margin: 25px, 0px;
+    padding: 25px;
+    display: flex;
+}
+
+h2 {
+    margin-left: 0px;
+    height: 25px;
+}
+
+.doyouthinkabout {
+    color: #000
+}
+
+.learningtocode {
+    color: #ff5c0f;
+}
+
+h3 {
+    margin: 0px;
+    height: 35px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #ff5c0f;
+}
+
+button {
+    border-radius: 10px;
+    padding: 12px;
+    width: 100%;
+    background-color: #20a8b4;
+    font-family:'Roboto', sans-serif
+}
+
+@media (min-width: 768px) {
+    button {
+        width: auto
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        width: auto;
+        flex-direction: row;
+        float: right;
+    } 
+}
+
+@media (min-width: 768px) {
+    .logo {
+        visibility: visible;
+    }
+}
